@@ -30,6 +30,8 @@ class MainActivity : ComponentActivity() {
         setContent {
 
             // This commit is from android studio to github
+            
+            // This commit is from github to android studio
             Text(text = "Basic Calculator", fontSize = 40.sp, color = Color.Black)
 
             var res by remember {
