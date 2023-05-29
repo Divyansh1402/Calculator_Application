@@ -29,6 +29,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
 
+            // This commit is from android studio to github
             Text(text = "Basic Calculator", fontSize = 40.sp, color = Color.Black)
 
             var res by remember {
